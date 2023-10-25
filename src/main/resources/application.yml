@@ -1,0 +1,19 @@
+spring:
+  jpa:
+    open-in-view: true
+
+springdoc:
+  swagger-ui:
+    disable-swagger-default-url: true
+    path: "/"
+
+server:
+  error:
+    include-stacktrace: never
+  tomcat:
+    max-http-response-header-size: 65536
+
+API:
+  security:
+    token:
+      secret: abc
